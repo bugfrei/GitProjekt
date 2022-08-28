@@ -40,6 +40,7 @@ Danach in den Branch wechseln:
 
 > PS> git checkout max
 
+Nun müssen noch Branches für QS (`git branch QS`) und PROD (`git brach PROD`) erstellt werden.
 
 
 ## 1. Sprint
