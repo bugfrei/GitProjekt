@@ -75,3 +75,17 @@ Jeder Kollege soll nun die aktuelle Version erhalten.
 
 Jede added (git add) und commitet (git commit) seine Änderung entsprechend mit einer Message.
 
+Nacheinander nun den Inhalt von main-Branch holen
+
+> PS> git merge main
+
+Gibt es einen Konflikt, diesen mit Visual Studio Code lösen.
+
+Anschließend seinen aktuellen Commit (oder den Commit des Merge-Konfliktes) auf main mergen.
+
+> PS> git checkout main
+>
+> PS> git merge max
+
+Wichtig ist hier, den richtigen Branch-Namen zu verwenden. Notfalls VOR dem Wechsel zu main mit `git status` prüfen, auf welchem Branch man ist.
+
